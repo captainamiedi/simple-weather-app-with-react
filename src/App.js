@@ -132,6 +132,7 @@ class App extends React.Component {
 var sectionStyle = {
   backgroundSize: 'cover',
   backgroundImage: "url(" + { Background } + ")"
+  
 };
 
 export default App;

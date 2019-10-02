@@ -4,7 +4,7 @@ import React from 'react';
 
 const Titles = () => {
   return (
-    <div>
+    <div style={{color: '#fff', padding: '15px'}}>
       <h2>Weather Finder</h2>
     </div>
   )

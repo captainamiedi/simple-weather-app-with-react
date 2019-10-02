@@ -3,7 +3,7 @@ import React from 'react';
 
 const Weather = (props) => {
   return (
-    <div>
+    <div style={{color: 'greenyellow'}}>
       {props.city && props.country && <h1 className="pt-4"> {props.city}, {props.country}</h1>}
       {props.humidity && <h4 className="pb-4 mb-3 pt-4">humidty: {props.humidity}</h4>}
       {/* {props.temperature && <p>temperature: {props.temperature}&deg;</p>} */}
